@@ -7,35 +7,35 @@
 |  Data  | Versão | Descrição | Autor |
 |:-------|:-------|:----------|:------|
 | 19/06/2021 |  **`1.00`** | Versão Inicial  | Gilbert Azevedo |
-| 02/09/2021 |  **`1.10`** | Versão Primeira Adaptação  | Gilbert Azevedo |
+| 02/09/2021 |  **`1.10`** | Primeira Adaptação  | Marcus Vinicius |
 
 
 ### 1. Objetivo do Projeto 
 
-O projeto __Agendamento de Serviços__ tem como objetivo prover uma solução simples, acessível e padronizada para o agendamento de serviços através da Internet.
+O projeto __Sun Power__ tem como objetivo prover uma solução simples, acessível e padronizada para o agendamento de serviços de empresas de energia solar através da Internet.
 
 ### 2. Descrição do Problema 
 
 |         __        | __   |
 |:------------------|:-----|
-| **_O problema_**    | Organizar de forma eficiente um agendamento para manutenção / visita tecnica de energia solar. |
-| **_afetando_**      | Profissionais e empresas que fornecem diversos serviços à sociedade e pessoas que precisam contratar esses serviços, agendando um horário de atendimento sem muita complicação e com os dados facilmente acessiveis tanto pela empresa quanto pelo cliente. |
+| **_O problema_**    | Organizar de forma eficiente o agendamento de visitas técnicas e o agendamento de manutenção em sistemas de energia solar. |
+| **_afetando_**      | Profissionais e empresas que fornecem serviços relacionados à energia solar e pessoas que precisam contratar esses serviços, agendando um horário de atendimento sem muita complicação e com os dados facilmente acessíveis tanto pela empresa quanto pelo cliente. |
 | **_cujo impacto é_**| Dificuldade no agendamento do atendimento, dificuldade na contratação dos serviços, perda de clientes (empresas e profissionais) e não realização de serviços (clientes), problemas com esquecimento (empresas e clientes). |
-| **_uma boa solução seria_** | Um sistema na Internet que permita aos profissionais e empresas informar a disponibilidade de horários de atendimento, facilitando o agendamento desses atendimentos para seus clientes. E para os clientes, um sistema que facilite a busca de profissionais e empresas para agendamento de um atendimento, além de centralizar essa demanda em um canto de confiança. |
+| **_uma boa solução seria_** | Um sistema na Internet que permita aos profissionais e empresas informar a disponibilidade de horários de atendimento, facilitando o agendamento desses atendimentos para seus clientes. E para os clientes, um sistema que facilite o agendamento de um atendimento para sistemas de energia solar. |
 
 ### 3. Descrição dos Usuários
 
 | Nome | Descrição | Responsabilidades |
 |:---  |:--- |:--- |
 | Administrador  | Realiza as atividades básicas para o início da operação do sistema | Mantém o cadastro dos funcionários responsáveis pela operação da agenda de serviços |
-| Funcionário  | Realiza as atividades relacionadas ao controle da agenda de serviços | Mantém o cadastro de serviços; consulta a situação das agendas de serviços; mantém atualizada a agenda de atendimento; confirma o agendamento de clientes e exclui o agendamento de clientes |
-| Cliente | Realiza as atividades relacionadas ao agendamento do serviço | Realiza o próprio cadastro no sistema; consulta a agenda de serviços e disponibilidades de atendimento; agenda um serviço; consulta seus agendamentos e cancela um agendamento; Descreve brevemente os "sintomas" percebidos por ele |
+| Funcionário  | Realiza as atividades relacionadas ao controle da agenda de serviços | Mantém o cadastro de serviços; mantém a agenda de atendimento; mantém o registro das visitas técnicas e dos serviços realizados no sistema de energia solar dos clientes; mantém o cadastro dos clientes contendo informações sobre os seus sistemas de energia solar |
+| Cliente | Realiza as atividades relacionadas ao agendamento do serviço | Realiza o próprio cadastro no sistema; consulta a agenda de serviços e disponibilidades de atendimento; agenda um serviço, informando possíveis problemas observados; consulta e cancela seus agendamentos; consultar os serviços já realizados |
 
 ### 4. Descrição do Ambiente dos Usuários
 
 Em várias atividades do cotidiano humano é necessário agendar um horário determinado para que uma ação específica seja realizada. Isso ocorre, por exemplo, quando um automóvel vai ser revisado em uma oficina, quando um médico vai consultar um paciente ou quando consertos diversos (hidráulicos, elétricos, dentre outros) são realizados em uma residência. 
 
-No caso da Energia solar, não é incomum que clientes tenham problemas com a concessionaria de energia e não tenham os beneficios que deveriam ter, fazendo-se necessario um contato entre cliente e empresa de forma desestruturada, não só isso como outros prestadores de serviço na casa do cliente acabem acidentalmente mexendo com a estrutura da sua instalação fazendo-se necessaria um reajuste.
+No caso da Energia solar, não é incomum que clientes tenham problemas com a concessionária de energia e não tenham os beneficios que deveriam ter com a geração da energia. Nessas situações, a empresa de energia solar auxilia os clientes na relação com a concessionária para corrigir eventuais problemas no seu sistema. Além disso, a empresa de energia solar também dá suporte técnico na manutenção dos equipamentos e na realização de manutenções programadas.
 
 Desta forma, a ideia central do sistema é permitir que empresas e profissionais registrem suas disponibilidades de atendimento e que clientes, em geral, possam consultar e agendar horários para realização e contratação de serviços. Com isso, o sistema pode estabelecer um canal de comunicação mais ágil e confiavél entre clientes e empresas ou profissionais.
 
