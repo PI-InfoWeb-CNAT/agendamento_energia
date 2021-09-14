@@ -8,6 +8,7 @@
 |:-------|:-------|:----------|:------|
 | 19/06/2021 |  **`1.00`** | Versão Inicial  | Gilbert Azevedo |
 | 02/09/2021 |  **`1.10`** | Primeira Adaptação  | Marcus Vinicius |
+| 03/09/2021 |  **`1.20`** | Introdução de novos requisitos  | Marcus Vinicius |
 
 
 ### 1. Objetivo do Projeto 
@@ -66,6 +67,9 @@ O sistema deve ter uma interface amigável e permitir o acesso concorrente de cl
 | RF05 | Cadastro de Clientes | Cliente deve realizar o auto cadastramento |
 | RF06 | Consulta de Agendas | Cliente consulta agendas de atendimento dos serviços disponíveis, podendo agendar um serviço e descrever brevemente o motivo do agendamento |
 | RF07 | Consulta de Agendamento | Cliente consulta atendimentos agendados, podendo cancelar um agendamento |
+| RF08 | Consulta de Agendamentos passados | Cliente consulta atendimentos passados, podendo ver uma descrição dos serviços já prestados no seu sistema |
+| RF09 | Registro de visitas técnicas | Funcionario registra no sistema um detalhamento do serviço realizado no agendamento |
+| RF10 | Manter cadastro de clientes | Funcionario mantém no sistema informações atualizadas do sistema do cliente |
 
 
 ### 9. Requisitos Não-funcionais
