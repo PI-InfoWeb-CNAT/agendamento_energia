@@ -9,6 +9,7 @@
 | 19/06/2021 |  **`1.00`** | Versão Inicial  | Gilbert Azevedo |
 | 02/09/2021 |  **`1.10`** | Primeira Adaptação  | Marcus Vinicius |
 | 03/09/2021 |  **`1.20`** | Introdução de novos requisitos  | Marcus Vinicius |
+| 30/09/2021 |  **`1.30`** | Adaptações dos RFs com o diagrama de classes e de uso de caso  | Marcus Vinicius |
 
 
 ### 1. Objetivo do Projeto 
@@ -65,12 +66,14 @@ O sistema deve ter uma interface amigável e permitir o acesso concorrente de cl
 | RF03 | Manter Serviços |  Funcionário mantém a relação de serviços prestados pela empresa ou profissional |
 | RF04 | Manter Agenda | Funcionário registra os horários disponíveis de atendimento, confirma e cancela o agendamento de clientes |
 | RF05 | Registro de visitas técnicas | Funcionario registra no sistema um detalhamento do serviço realizado no agendamento |
-| RF06 | Manter cadastro de clientes | Funcionario mantém no sistema informações atualizadas do sistema do cliente |
-| RF07 | Manter cadastro de produtos | Funcionario mantém no sistema informações atualizadas dos produtos que serão utilizados |
-| RF08 | Auto-cadastro de Clientes | Cliente deve realizar o auto cadastramento |
-| RF09 | Consulta de Agendas | Cliente consulta agendas de atendimento dos serviços disponíveis, podendo agendar um serviço e descrever brevemente o motivo do agendamento |
-| RF10 | Consulta de Agendamento | Cliente consulta atendimentos agendados, podendo cancelar um agendamento |
-| RF11 | Consulta de Agendamentos anteriores | Cliente consulta atendimentos passados, podendo ver uma descrição dos serviços já prestados no seu sistema |
+| RF06 | Manter cadastro de clientes | Funcionario mantém no sistema informações atualizadas do cliente |
+| RF07 | Manter sistemas FV de clientes | Funcionario mantém no sistema informações atualizadas dos sistemas do cliente |
+| RF08 | Manter cadastro de produtos | Funcionario mantém no sistema informações atualizadas dos produtos que serão utilizados |
+| RF09 | Auto-cadastro de Clientes | Cliente deve realizar o auto cadastramento |
+| RF10 | Consulta de Agenda | Cliente consulta disponibilidade da empresa, podendo fazer um agendamento |
+| RF11 | Consulta de Agendamentos | Cliente consulta todos os seus agendamentos, podendo cancelar um agendamento que ainda não foi concluido |
+| RF12 | Agendar um serviço | Cliente deve realizar o agendamento do serviço, explicando brevemente a situação atual |
+
 
 
 
