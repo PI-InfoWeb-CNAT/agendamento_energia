@@ -1,0 +1,51 @@
+﻿@model AgendamentoEnergia.Models.Equipamento
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Equipamento</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Tipo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tipo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataSheet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataSheet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Potencia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Potencia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Detalhes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Detalhes)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.EquipamentoID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

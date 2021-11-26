@@ -90,3 +90,4 @@ C:\Users\Vinicius\Source\Repos\PI-InfoWeb-CNAT\agendamento_energia\aplicacao\Age
 C:\Users\Vinicius\Source\Repos\PI-InfoWeb-CNAT\agendamento_energia\aplicacao\AgendamentoEnergia\obj\Debug\AgendamentoEnergia.csproj.AssemblyReference.cache
 C:\Users\Vinicius\Source\Repos\PI-InfoWeb-CNAT\agendamento_energia\aplicacao\AgendamentoEnergia\obj\Debug\AgendamentoEnergia.Migrations.Tabela.resources
 C:\Users\Vinicius\Source\Repos\PI-InfoWeb-CNAT\agendamento_energia\aplicacao\AgendamentoEnergia\obj\Debug\AgendamentoEnergia.csproj.GenerateResource.cache
+C:\Users\Vinicius\source\repos\PI-InfoWeb-CNAT\agendamento_energia\aplicacao\AgendamentoEnergia\obj\Debug\AgendamentoEnergia.Migrations.ServicoEEquipamento.resources

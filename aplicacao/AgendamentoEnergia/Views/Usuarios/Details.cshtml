@@ -1,58 +1,51 @@
 ﻿@model AgendamentoEnergia.Models.Usuario
 
 @{
-    Layout = null;
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
+<h2>Details</h2>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Details</title>
-</head>
-<body>
-    <div>
-        <h4>Usuario</h4>
-        <hr />
-        <dl class="dl-horizontal">
-            <dt>
-                @Html.DisplayNameFor(model => model.Nome)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Nome)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Endereço)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Endereço)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Celular)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Celular)
-            </dd>
-    
-            <dt>
-                @Html.DisplayNameFor(model => model.Senha)
-            </dt>
-    
-            <dd>
-                @Html.DisplayFor(model => model.Senha)
-            </dd>
-    
-        </dl>
-    </div>
-    <p>
-        @Html.ActionLink("Edit", "Edit", new { id = Model.UsuarioID }) |
-        @Html.ActionLink("Back to List", "Index")
-    </p>
-</body>
-</html>
+<div>
+    <h4>Usuario</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Endereço)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Endereço)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Celular)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Celular)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Senha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Senha)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.UsuarioID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

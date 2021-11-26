@@ -1,0 +1,52 @@
+﻿@model IEnumerable<AgendamentoEnergia.Models.Equipamento>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Tipo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataSheet)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Potencia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Detalhes)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tipo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataSheet)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Potencia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Detalhes)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.EquipamentoID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.EquipamentoID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.EquipamentoID })
+        </td>
+    </tr>
+}
+
+</table>

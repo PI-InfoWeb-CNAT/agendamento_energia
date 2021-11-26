@@ -126,7 +126,9 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\EquipamentosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ServiçosController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="DAL\EFContext.cs" />
     <Compile Include="DAL\UsuarioDAL.cs" />
@@ -137,7 +139,13 @@
     <Compile Include="Migrations\202111250238049_Tabela.Designer.cs">
       <DependentUpon>202111250238049_Tabela.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202111260127403_ServicoEEquipamento.cs" />
+    <Compile Include="Migrations\202111260127403_ServicoEEquipamento.Designer.cs">
+      <DependentUpon>202111260127403_ServicoEEquipamento.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Equipamento.cs" />
+    <Compile Include="Models\Serviço.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -177,6 +185,16 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Equipamentos\Create.cshtml" />
+    <Content Include="Views\Equipamentos\Delete.cshtml" />
+    <Content Include="Views\Equipamentos\Details.cshtml" />
+    <Content Include="Views\Equipamentos\Edit.cshtml" />
+    <Content Include="Views\Equipamentos\Index.cshtml" />
+    <Content Include="Views\Serviços\Create.cshtml" />
+    <Content Include="Views\Serviços\Delete.cshtml" />
+    <Content Include="Views\Serviços\Details.cshtml" />
+    <Content Include="Views\Serviços\Edit.cshtml" />
+    <Content Include="Views\Serviços\Index.cshtml" />
     <Content Include="Views\Usuarios\Create.cshtml" />
     <Content Include="Views\Usuarios\Delete.cshtml" />
     <Content Include="Views\Usuarios\Details.cshtml" />
@@ -202,6 +220,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202111250238049_Tabela.resx">
       <DependentUpon>202111250238049_Tabela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111260127403_ServicoEEquipamento.resx">
+      <DependentUpon>202111260127403_ServicoEEquipamento.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
