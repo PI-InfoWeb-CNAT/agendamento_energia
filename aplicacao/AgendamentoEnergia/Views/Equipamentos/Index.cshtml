@@ -1,14 +1,14 @@
 ﻿@model IEnumerable<AgendamentoEnergia.Models.Equipamento>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Listagem de equipamentos";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>@ViewBag.Title</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Adicionar novoo equipamento", "Create")
 </p>
 <table class="table">
     <tr>
@@ -42,9 +42,9 @@
             @Html.DisplayFor(modelItem => item.Detalhes)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.EquipamentoID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.EquipamentoID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.EquipamentoID })
+            @Html.ActionLink("Editar", "Edit", new { id=item.EquipamentoID }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.EquipamentoID }) |
+            @Html.ActionLink("Excluir", "Delete", new { id=item.EquipamentoID })
         </td>
     </tr>
 }

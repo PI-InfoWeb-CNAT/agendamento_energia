@@ -11,7 +11,7 @@ namespace AgendamentoEnergia.Models
     {
         public long EquipamentoID { get; set; }
 
-        [Required(ErrorMessage = "Por favor, selecione um tipo valida!")]
+        [Required(ErrorMessage = "Por favor, selecione um tipo valido!")]
         [DisplayName("Tipo")]
         public string Tipo { get; set; }
 

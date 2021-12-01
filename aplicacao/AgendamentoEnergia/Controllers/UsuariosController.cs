@@ -21,6 +21,7 @@ namespace AgendamentoEnergia.Controllers
             return View(db.Usuarios.ToList());
         }
 
+
         // GET: Usuarios/Details/5
         public ActionResult Details(long? id)
         {

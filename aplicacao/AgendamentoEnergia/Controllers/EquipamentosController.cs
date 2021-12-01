@@ -39,6 +39,9 @@ namespace AgendamentoEnergia.Controllers
         // GET: Equipamentos/Create
         public ActionResult Create()
         {
+            IList<SelectListItem> amimi = new List<SelectListItem>() { new SelectListItem { Text = "Action", Value = "0" }, new SelectListItem { Text = "Amimi", Value = "1" } };
+
+            ViewBag.Peixe = new SelectList(amimi, "Value", "Text");
             return View();
         }
 
