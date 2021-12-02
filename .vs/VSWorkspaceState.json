@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\aplicacao",
+    "\\aplicacao\\AgendamentoEnergia",
     "\\docs",
     "\\docs\\casos_de_uso"
   ],
-  "SelectedNode": "\\docs\\casos_de_uso\\cdu_cadastrar_se.md",
+  "SelectedNode": "\\aplicacao\\AgendamentoEnergia\\AgendamentoEnergia.sln",
   "PreviewInSolutionExplorer": false
 }

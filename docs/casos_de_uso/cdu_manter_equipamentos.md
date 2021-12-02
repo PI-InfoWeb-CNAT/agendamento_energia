@@ -18,11 +18,11 @@ Funcionário
 
 ### 3. Pré-condições
 
-O funcionário deverá estar autenticado e caso deseje modificar um serviço, o serviço deve estar cadastrado de acordo com as propriedades que possui. 
+O produto escolhido deve obrigatoriamente ser um dos disponibilizado pela empresa.O funcionário deve estar logado em sua conta. 
 
 ### 4. Pós-condições
 
-O serviço continua ou  torna-se  disponível para que o cliente possa ter acesso.
+O produto deve ser disponibilizado ao cliente.
 
 ### 5. Fluxos de Evento
 
@@ -30,16 +30,16 @@ O serviço continua ou  torna-se  disponível para que o cliente possa ter acesso.
 
 | Ator   | Sistema |
 |:-------|:--------|
-|| 1.O sistema apresenta ao funcionário uma aba onde é possível que ele acesse aos serviços cadastrados, modifique-os ou inclua caso seja necessário. |
-| 2. .O funcionário pode modificar as opções de serviço, valor e detalhes do mesmo ou acrescenta um serviço caso precise. ||
-|| 3. Após realizar as tarefas necessárias no serviço, o sistema salvará as mudanças e elas serão visiveis para os usuarios. |
+|| 1.O sistema apresenta uma tela onde é possível fazer a inserção, edição ou remoção de novos produtos. |
+| 2. O funcionário modifica ou acrescenta o produto caso ||
+|| 3. Após realizar as tarefas necessárias no equipamento, o sistema salvará as mudanças e elas serão visiveis para os usuarios. |
 
 #### 5.2. Fluxo de Exceção
 
 | Exceção | Sistema |
 |:--------|:--------|
 | 1. Dados inválidos para a operação | Caso os dados informados não possuam a quantidade ou caracteres corretos, é exibida uma mensagem de erro e o cadastro não é concluído. |
-| 2. Serviço já cadastrado| Caso o funcionário queira adicionar um serviço que já foi incluído deve ser apresentada uma mensagem  de retorno onde o informa e também dá a opção de modificar o serviço que tentou cadastrar. |
+| 2. Equipamento já cadastrado| Caso o funcionário queira adicionar um equipamento que já foi incluído deve ser apresentada uma mensagem  de retorno onde o informa e também dá a opção de modificar o equipamento que tentou cadastrar. |
 
 
 ### 6. Protótipos de Interface
