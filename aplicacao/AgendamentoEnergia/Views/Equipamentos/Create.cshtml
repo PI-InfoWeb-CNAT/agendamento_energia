@@ -6,6 +6,7 @@
     var lista = ViewBag.Peixe;
 }
 
+
 <h2>@ViewBag.Title</h2>
 
 
@@ -17,17 +18,19 @@
         <h4>Equipamento</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        <div class="form-group">
-            @Html.LabelFor(model => model.Tipo, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.DropDownListFor(m => m.Tipo, new List<SelectListItem> {
-                new SelectListItem { Text = "Modulos", Value = "Modulos" },
-                new SelectListItem { Text = "Inversor", Value = "Inversor" } },
-                htmlAttributes: new { @class = "form-control" })
-                @Html.ValidationMessageFor(model => model.Tipo, "", new { @class = "text-danger" })
-                    </div>
-                </div>
+            <div class="form-group">
+            @Html.LabelFor(model => model.Tipo, htmlAttributes: new { @class = "control-label col-md-2", @onchange = "myFunction()" })
+                <div class="col-md-10">
+                    
+                    <select name="tipo" id="tipo" class="form-control">
+                        <option value="Inversor">Inversor</option>
+                        <option value="Modulo">Modulo</option>
+                        <option value="Estruturas">Estruturas</option>
+                    </select>
 
+                    @Html.ValidationMessageFor(model => model.Tipo, "", new { @class = "text-danger" })
+                </div>
+                </div>
                 <div class="form-group">
                     @Html.LabelFor(model => model.DataSheet, htmlAttributes: new { @class = "control-label col-md-2" })
                     <div class="col-md-10">
@@ -36,7 +39,7 @@
                     </div>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group" id="AQUIOH">
                     @Html.LabelFor(model => model.Potencia, htmlAttributes: new { @class = "control-label col-md-2" })
                     <div class="col-md-10">
                         @Html.EditorFor(model => model.Potencia, new { htmlAttributes = new { @class = "form-control" } })

@@ -8,7 +8,7 @@
 <h2>@ViewBag.Title</h2>
 
 <p>
-    @Html.ActionLink("Adicionar novoo equipamento", "Create")
+    @Html.ActionLink("Adicionar novo equipamento", "Create")
 </p>
 <table class="table">
     <tr>
@@ -33,7 +33,7 @@
             @Html.DisplayFor(modelItem => item.Tipo)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.DataSheet)
+            <a href="@item.DataSheet.ToString()">DataSheet</a>
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Potencia)
