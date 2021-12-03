@@ -10,7 +10,7 @@
 
 ### 1. Resumo 
 
-NO funcionário verifica se os serviços estão cadastrados, caso não, efetua o cadastro ou pode modificá-lo se ele estiver somente desatualizado. 
+O funcionário verifica se os serviços estão cadastrados, caso não, efetua o cadastro ou pode modificá-lo se ele estiver somente desatualizado. 
 
 ### 2. Atores 
 
