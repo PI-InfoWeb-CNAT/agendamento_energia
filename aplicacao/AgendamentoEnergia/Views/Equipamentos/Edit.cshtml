@@ -21,7 +21,11 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Tipo, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Tipo, new { htmlAttributes = new { @class = "form-control" } })
+                <select name="tipo" id="tipo" class="form-control">
+                    <option value="Inversor">Inversor</option>
+                    <option value="Modulo">Modulo</option>
+                    <option value="Estruturas">Estruturas</option>
+                </select>
                 @Html.ValidationMessageFor(model => model.Tipo, "", new { @class = "text-danger" })
             </div>
         </div>

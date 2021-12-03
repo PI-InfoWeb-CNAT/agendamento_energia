@@ -3,9 +3,11 @@
     "",
     "\\aplicacao",
     "\\aplicacao\\AgendamentoEnergia",
+    "\\aplicacao\\AgendamentoEnergia\\Views",
+    "\\aplicacao\\AgendamentoEnergia\\Views\\Equipamentos",
     "\\docs",
     "\\docs\\casos_de_uso"
   ],
-  "SelectedNode": "\\aplicacao\\AgendamentoEnergia\\AgendamentoEnergia.sln",
+  "SelectedNode": "\\aplicacao\\AgendamentoEnergia\\Views\\Equipamentos\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
