@@ -1,45 +1,45 @@
 # Projeto Agendamento de Serviços
 
-## Especificação do caso de uso - Abrir Agenda do Dia
+## Especificação do caso de uso - Abrir Agendamentos do Dia
 
-### Histórico da Revisão 
+### Histórico da Revisão
 
-|  Data  | Versão | Descrição | Autor |
-|:-------|:-------|:----------|:------|
-| 16/07/2021 | **1.00** | Versão Inicial  | Gilbert Azevedo |
+| Data       | Versão   | Descrição      | Autor           |
+| :--------- | :------- | :------------- | :-------------- |
+| 16/07/2021 | **1.00** | Versão Inicial | Gilbert Azevedo |
+| 27/12/2021 | **1.10** | Versão Inicial | Vinicius Morais |
 
-### 1. Resumo 
+### 1. Resumo
 
-Nesse caso de uso, o usuário funcionário acessa o sistema e visualiza a agenda de um serviço específico em uma determinada data, podendo listar os horários cadastrados na agenda, inserir novos horários, atualizar e excluir horários existentes.
+Nesse caso de uso, o funcionário acessa o sistema e visualiza os agendamentos de uma determinada data, listando os agendamentos dos clientes para o dia especificado, podendo cancelar ou confirmar esses agendamentos.
 
-### 2. Atores 
+### 2. Atores
 
 Funcionário
 
 ### 3. Pré-condições
 
-O funcionário deve ter consultado o painel de controle da agenda para um serviço e data específicos.
+O funcionário deve ter consultado o painel de controle da agenda.
 
 ### 4. Pós-condições
 
-O sistema disponibiliza os horários cadastrados na agenda para que os clientes possam agendar os serviços.
+O funcionário terá interagido com os agendamentos dos clientes.
 
 ### 5. Fluxos de Evento
 
 #### 5.1. Fluxo Básico
 
-| Ator   | Sistema |
-|:-------|:--------|
-| 1. O usuário seleciona um serviço e data específicos para consulta a agenda do dia ||
-|| 2. O sistema lista os horários da agenda para os dados informados, permitindo inserir novos horários na agenda desse dia, atualizar as informações de um horário da agenda e excluir horários não agendados por clientes. |
+| Ator                                                                               | Sistema                                                                                                                                                                                                                   |
+| :--------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1. O usuário seleciona um dia especifico para visualizar |                                                                                                                                                                                                                           |
+|                                                                                    | 2. O sistema lista os agendamentos feitos pelos clientes, contendo algumas informações e botões para cancelar e confirmar um agendamento |
+
 
 #### 5.2. Fluxos de Exceção
 
-| Exceção | Sistema |
-|:--------|:--------|
-| 1. Dados inválidos para a operação | Se o usuário tentar inserir ou atualizar horários com informações inválidas (por exemplo, horário repetido), o sistema deve apresentar um alerta e não realizar a operação. |
-| 2. Exclusão de horário já agendado | Se o usuário tentar excluir horários já agendados, o sistema deve apresentar um alerta e não realizar a operação. |
-
+| Exceção                            | Sistema                                                                                                                                                                     |
+| :--------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ### 6. Protótipos de Interface
+
 `A ser desenvolvido pelo aluno.`
