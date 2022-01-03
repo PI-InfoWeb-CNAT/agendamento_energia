@@ -1,12 +1,12 @@
-# Projeto Agendamento de Servi�os
+# Projeto Agendamento de Serviços
 
 ##  Documentação caso de uso Confirmar Agendamento
 
-### Hist�rico da Revis�o 
+### Histórico da Revisão 
 
-|  Data  | Vers�o | Descri��o | Autor |
+|  Data  | Versão | Descrição | Autor |
 |:-------|:-------|:----------|:------|
-| 27/12/2021 | **1.00** | Vers�o Inicial  | Rafael Campelo |
+| 27/12/2021 | **1.00** | Versão Inicial  | Rafael Campelo |
 
 ### 1. Resumo 
 
@@ -16,17 +16,17 @@ Nesse caso de uso, o sistema permite ao funcionário a opção de confirmar ou c
 
 Funcionário
 
-### 3. Pr�-condi��es
+### 3. Pré-condições
 
 O funcionário  deve ter efetuado o login na página inicial e ter selecionado uma data válida na tela de abrir agendamentos do dia.
 
-### 4. P�s-condi��es
+### 4. Pós-condições
 
 O cliente recebe a confirmação.
 
 ### 5. Fluxos de Evento
 
-#### 5.1. Fluxo B�sico
+#### 5.1. Fluxo Básico
 
 | Ator   | Sistema |
 |:-------|:--------|
@@ -34,8 +34,8 @@ O cliente recebe a confirmação.
 | 2. O funcionário realiza a confirmação/cancelamento do agendamento. ||
 || 3..O sistema apresenta ao funcionário uma mensagem de que o agendamento foi confirmado/cancelado com sucesso sistema fotovoltaico. |
 
-#### 5.2. Fluxo de Exce��o
+#### 5.2. Fluxo de Exceção
 
-| Exce��o | Sistema |
+| Exceção | Sistema |
 |:--------|:--------|
-| 1. Dados inv�lidos para a opera��o | Caso sejam inseridas datas inválidas, o sistema exibirá um alerta.
+| 1. Dados inválidos para a operação | Caso sejam inseridas datas inválidas, o sistema exibirá um alerta.
