@@ -29,6 +29,8 @@ namespace AgendamentoEnergia.Models
         [DataType(DataType.Password)]
         public string Senha { get; set; }
 
-        
+        public virtual ICollection<Sistema> Sistemas { get; set; }
+
+
     }
 }

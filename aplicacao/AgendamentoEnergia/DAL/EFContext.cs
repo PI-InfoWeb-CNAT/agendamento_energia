@@ -15,6 +15,8 @@ namespace AgendamentoEnergia.DAL
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Equipamento> Equipamentos { get; set; }
         public DbSet<Serviço> Serviços { get; set; }
+        public DbSet<Sistema> Sistemas { get; set; }
+        public DbSet<Agendamento> Agendamentoes { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
