@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
@@ -16,10 +17,12 @@ namespace AgendamentoEnergia.Models
 
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        [DisplayName("Data de Criação")]
         public DateTime dataCriacao { get; set; } = DateTime.Now;
 
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        [DisplayName("Data do Agendamento")]
         public DateTime? dataAgendamento { get; set; }
 
         public string Descricao { get; set; }

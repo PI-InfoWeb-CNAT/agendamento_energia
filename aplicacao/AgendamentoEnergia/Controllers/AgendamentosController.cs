@@ -50,10 +50,11 @@ namespace AgendamentoEnergia.Controllers
         // Para obter mais detalhes, confira https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "AgendamentoID,dataExecucao,dataCriacao,dataAgendamento,Descricao,Executado,BemSucedido,Confirmado,UsuarioID,ServiçoID")] Agendamento agendamento)
+        public ActionResult Create([Bind(Include = "AgendamentoID,dataCriacao,Descricao,UsuarioID,ServiçoID")] Agendamento agendamento)
         {
             if (ModelState.IsValid)
             {
+                agendamento.dataCriacao = DateTime.Today;
                 db.Agendamentoes.Add(agendamento);
                 db.SaveChanges();
                 return RedirectToAction("Index");

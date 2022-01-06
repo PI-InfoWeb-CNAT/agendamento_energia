@@ -22,73 +22,61 @@
     <table class="table" id="top">
         <thead>
             <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Serviço.Descrição)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Usuario.Nome)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.dataExecucao)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.dataCriacao)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.dataAgendamento)
-                </th>
-                <th>
+                <th class="text-center">
                     @Html.DisplayNameFor(model => model.Descricao)
                 </th>
-                <th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Serviço.Descrição)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.dataAgendamento)
+                </th>
+                <th class="text-center">
                     @Html.DisplayNameFor(model => model.Executado)
                 </th>
-                <th>
+                <th class="text-center">
                     @Html.DisplayNameFor(model => model.BemSucedido)
                 </th>
-                <th>
+                <th class="text-center">
                     @Html.DisplayNameFor(model => model.Confirmado)
                 </th>
-                <th></th>
+                <th></th><th></th><th></th>
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model)
             {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Serviço.Descrição)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Usuario.Nome)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.dataExecucao)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.dataCriacao)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.dataAgendamento)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Descricao)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Executado)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.BemSucedido)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Confirmado)
-                    </td>
-                    <td>
-                        @Html.ActionLink("Edit", "Edit", new { id = item.AgendamentoID }) |
-                        @Html.ActionLink("Details", "Details", new { id = item.AgendamentoID }) |
-                        @Html.ActionLink("Delete", "Delete", new { id = item.AgendamentoID })
-                    </td>
-                </tr>
+            <tr>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Serviço.Descrição)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.dataAgendamento)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Executado)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.BemSucedido)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Confirmado)
+                </td>
+                <td class="text-center">
+                    @Html.ActionLink("Editar", "Edit", "Agendamentos", new { @class = "dropdown-item" })
+                </td>
+                <td class="text-center">
+                    @Html.ActionLink("Ver Detalhes", "Details", "Agendamentos", new { @class = "dropdown-item" })
+                </td>
+                <td class="text-center">
+                    @Html.ActionLink("Cancelar", "Delete", "Agendamentos",new { id = item.AgendamentoID }, new { @class = "dropdown-item" })
+                </td>
+
+
+            </tr>
             }
         </tbody>
 
