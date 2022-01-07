@@ -7,6 +7,7 @@
 |  Data  | Versão | Descrição | Autor |
 |:-------|:-------|:----------|:------|
 | 29/11/2021 | **1.00** | Versão Inicial  | Rafael Campelo |
+| 06/01/2021 | **1.10** | Formalismo  | Rafael Campelo |
 
 ### 1. Resumo 
 
@@ -30,9 +31,10 @@ O produto deve ser disponibilizado ao cliente.
 
 | Ator   | Sistema |
 |:-------|:--------|
-|| 1.O sistema apresenta uma tela onde é possível fazer a inserção, edição ou remoção de novos produtos. |
-| 2. O funcionário modifica ou acrescenta o produto caso ||
-|| 3. Após realizar as tarefas necessárias no equipamento, o sistema salvará as mudanças e elas serão visiveis para os usuarios. |
+| 1. O funcionário chega na tela inicial de Equipamentos ||
+|| 2.O sistema apresenta uma tela onde é possível fazer a inserção, edição ou remoção de novos produtos. |
+| 3. O funcionário modifica ou acrescenta o produto caso ||
+|| 4. Após realizar as tarefas necessárias no equipamento, o sistema salvará as mudanças e elas serão visiveis para os usuarios. |
 
 #### 5.2. Fluxo de Exceção
 
