@@ -11,7 +11,7 @@
 
 ### 1. Resumo
 
-Nesse caso de uso, o funcionário acessa o sistema e visualiza os agendamentos de uma determinada data, listando os agendamentos dos clientes para o dia especificado, podendo cancelar ou confirmar esses agendamentos.
+Nesse caso de uso, o funcionário acessa o sistema e visualiza os agendamentos, listando os agendamentos dos clientes e o dia especificado, podendo cancelar ou confirmar esses agendamentos.
 
 ### 2. Atores
 
@@ -31,7 +31,7 @@ O funcionário terá interagido com os agendamentos dos clientes.
 
 | Ator                                                                               | Sistema                                                                                                                                                                                                                   |
 | :--------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1. O usuário seleciona um dia especifico para visualizar |                                                                                                                                                                                                                           |
+| 1. O usuário abre a tela de agendamentos |                                                                                                                                                                                                                           |
 |                                                                                    | 2. O sistema lista os agendamentos feitos pelos clientes, contendo algumas informações e botões para cancelar e confirmar um agendamento |
 
 
