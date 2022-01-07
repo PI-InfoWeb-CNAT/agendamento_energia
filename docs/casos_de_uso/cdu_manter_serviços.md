@@ -1,46 +1,48 @@
-# Projeto Agendamento de ServiÁos
+# Projeto Agendamento de Servi√ßos
 
-## EspecificaÁ„o do caso de uso - Manter ServiÁos
+## Especifica√ß√£o do caso de uso - Manter Servi√ßos
 
-### HistÛrico da Revis„o 
+### Hist√≥rico da Revis√£o 
 
-|  Data  | Vers„o | DescriÁ„o | Autor |
+|  Data  | Vers√£o | Descri√ß√£o | Autor |
 |:-------|:-------|:----------|:------|
-| 29/11/2021 | **1.00** | Vers„o Inicial  | Ruth Silva |
+| 29/11/2021 | **1.00** | Vers√£o Inicial  | Ruth Silva |
+| 06/01/021 | **1.10** | Formalismo | Ruth Silva |
 
 ### 1. Resumo 
 
-O funcion·rio verifica se os serviÁos est„o cadastrados, caso n„o, efetua o cadastro ou pode modific·-lo se ele estiver somente desatualizado. 
+O funcion√°rio verifica se os servi√ßos est√£o cadastrados, caso n√£o, efetua o cadastro ou pode modific√°-lo se ele estiver somente desatualizado. 
 
 ### 2. Atores 
 
-Funcion·rio
+Funcion√°rio
 
-### 3. PrÈ-condiÁıes
+### 3. Pr√©-condi√ß√µes
 
-O funcion·rio dever· estar autenticado e caso deseje modificar um serviÁo, o serviÁo deve estar cadastrado de acordo com as propriedades que possui. 
+O funcion√°rio dever√° estar autenticado e caso deseje modificar um servi√ßo, o servi√ßo deve estar cadastrado de acordo com as propriedades que possui. 
 
-### 4. PÛs-condiÁıes
+### 4. P√≥s-condi√ß√µes
 
-O serviÁo continua ou  torna-se  disponÌvel para que o cliente possa ter acesso.
+O servi√ßo continua ou  torna-se  dispon√≠vel para que o cliente possa ter acesso.
 
 ### 5. Fluxos de Evento
 
-#### 5.1. Fluxo B·sico
+#### 5.1. Fluxo B√°sico
 
 | Ator   | Sistema |
 |:-------|:--------|
-|| 1.O sistema apresenta ao funcion·rio uma aba onde È possÌvel que ele acesse aos serviÁos cadastrados, modifique-os ou inclua caso seja necess·rio. |
-| 2. .O funcion·rio pode modificar as opÁıes de serviÁo, valor e detalhes do mesmo ou acrescenta um serviÁo caso precise. ||
-|| 3. ApÛs realizar as tarefas necess·rias no serviÁo, o sistema salvar· as mudanÁas e elas ser„o visiveis para os usuarios. |
+| 1. O O funcionario olha pra tela onde o sistema ser√° exibido. ||
+|| 2.O sistema apresenta ao funcion√°rio uma aba onde √© poss√≠vel que ele acesse aos servi√ßos cadastrados, modifique-os ou inclua caso seja necess√°rio. |
+| 3. .O funcion√°rio pode modificar as op√ß√µes de servi√ßo, valor e detalhes do mesmo ou acrescenta um servi√ßo caso precise. ||
+|| 4. Ap√≥s realizar as tarefas necess√°rias no servi√ßo, o sistema salvar√° as mudan√ßas e elas ser√£o visiveis para os usuarios. |
 
-#### 5.2. Fluxo de ExceÁ„o
+#### 5.2. Fluxo de Exce√ß√£o
 
-| ExceÁ„o | Sistema |
+| Exce√ß√£o | Sistema |
 |:--------|:--------|
-| 1. Dados inv·lidos para a operaÁ„o | Caso os dados informados n„o possuam a quantidade ou caracteres corretos, È exibida uma mensagem de erro e o cadastro n„o È concluÌdo. |
-| 2. ServiÁo j· cadastrado| Caso o funcion·rio queira adicionar um serviÁo que j· foi incluÌdo deve ser apresentada uma mensagem  de retorno onde o informa e tambÈm d· a opÁ„o de modificar o serviÁo que tentou cadastrar. |
+| 1. Dados inv√°lidos para a opera√ß√£o | Caso os dados informados n√£o possuam a quantidade ou caracteres corretos, √© exibida uma mensagem de erro e o cadastro n√£o √© conclu√≠do. |
+| 2. Servi√ßo j√° cadastrado| Caso o funcion√°rio queira adicionar um servi√ßo que j√° foi inclu√≠do deve ser apresentada uma mensagem  de retorno onde o informa e tamb√©m d√° a op√ß√£o de modificar o servi√ßo que tentou cadastrar. |
 
 
-### 6. ProtÛtipos de Interface
+### 6. Prot√≥tipos de Interface
 `A ser desenvolvido pelo aluno.`
