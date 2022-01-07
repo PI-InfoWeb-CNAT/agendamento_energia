@@ -7,6 +7,7 @@
 |  Data  | Versão | Descrição | Autor |
 |:-------|:-------|:----------|:------|
 | 27/12/2021 | **1.00** | Versão Inicial  | Rafael Campelo |
+| 27/12/2021 | **1.10** | Formalismo  | Rafael Campelo |
 
 ### 1. Resumo 
 
@@ -30,9 +31,10 @@ O cliente recebe a confirmação.
 
 | Ator   | Sistema |
 |:-------|:--------|
-|| 1. O sistema apresenta uma tela onde é possível confirmar/cancelar o agendamento |
-| 2. O funcionário realiza a confirmação/cancelamento do agendamento. ||
-|| 3..O sistema apresenta ao funcionário uma mensagem de que o agendamento foi confirmado/cancelado com sucesso sistema fotovoltaico. |
+| 1. O funcionário abre a tela em questão. ||
+|| 2. O sistema apresenta uma tela onde é possível confirmar/cancelar o agendamento |
+| 3. O funcionário realiza a confirmação/cancelamento do agendamento. ||
+|| 4. O sistema apresenta ao funcionário uma mensagem de que o agendamento foi confirmado/cancelado com sucesso sistema fotovoltaico. |
 
 #### 5.2. Fluxo de Exceção
 
