@@ -3,11 +3,19 @@
     "",
     "\\aplicacao",
     "\\aplicacao\\AgendamentoEnergia",
+<<<<<<< HEAD
+=======
+    "\\aplicacao\\AgendamentoEnergia\\Models",
+>>>>>>> 0278b2f60171d38c146d45be6a6e6cb9bc9be79b
     "\\aplicacao\\AgendamentoEnergia\\Views",
     "\\aplicacao\\AgendamentoEnergia\\Views\\Equipamentos",
     "\\docs",
     "\\docs\\casos_de_uso"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\aplicacao\\AgendamentoEnergia\\Views\\Equipamentos\\Index.cshtml",
+=======
+  "SelectedNode": "\\aplicacao\\AgendamentoEnergia\\Views\\Equipamentos",
+>>>>>>> 0278b2f60171d38c146d45be6a6e6cb9bc9be79b
   "PreviewInSolutionExplorer": false
 }

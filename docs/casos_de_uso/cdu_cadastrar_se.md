@@ -1,45 +1,47 @@
-# Projeto Agendamento de ServiÁos
+# Projeto Agendamento de Servi√ßos
 
-## EspecificaÁ„o do caso de uso - Autocadastro do Cliente
+## Especifica√ß√£o do caso de uso - Autocadastro do Cliente
 
-### HistÛrico da Revis„o 
+### Hist√≥rico da Revis√£o 
 
-|  Data  | Vers„o | DescriÁ„o | Autor |
+|  Data  | Vers√£o | Descri√ß√£o | Autor |
 |:-------|:-------|:----------|:------|
-| 28/11/2021 | **1.00** | Vers„o Inicial  | Vinicius de Morais |
+| 28/11/2021 | **1.00** | Vers√£o Inicial  | Vinicius de Morais |
+| 28/11/2021 | **1.10** | Formalismo  | Vinicius de Morais |
 
 ### 1. Resumo 
 
-Nesse caso de uso, o cliente acessa a p·gina inicial e visualiza um bot„o para se cadastrar e conseguir acesso ao sistema.
+Nesse caso de uso, o cliente acessa a p√°gina inicial e visualiza um bot√£o para se cadastrar e conseguir acesso ao sistema.
 
 ### 2. Atores 
 
 Cliente
 
-### 3. PrÈ-condiÁıes
+### 3. Pr√©-condi√ß√µes
 
-O cliente n„o pode estar autenticado e deve estar na p·gina inical.
+O cliente n√£o pode estar autenticado e deve estar na p√°gina inical.
 
-### 4. PÛs-condiÁıes
+### 4. P√≥s-condi√ß√µes
 
 O sistema apresenta a Dashboard do cliente.
 
 ### 5. Fluxos de Evento
 
-#### 5.1. Fluxo B·sico
+#### 5.1. Fluxo B√°sico
 
 | Ator   | Sistema |
 |:-------|:--------|
-|| 1. O Sistema apresenta para o cliente uma tela com um formulario onde ele poder· digiar seus dados e se cadastrar na plataforma |
-| 2. O cliente insere os dados que s„o necessarios para o envio do formulario. ||
-|| 3. O sistema redireciona o cliente para a dashboard do cliente, onde ele poder· optar por adicionar o seu sistema fotovoltaico. |
+| 1. O cliente olha pra tela ||
+|| 2. O Sistema apresenta para o cliente uma tela com um formulario onde ele poder√° digiar seus dados e se cadastrar na plataforma |
+| 3. O cliente insere os dados que s√£o necessarios para o envio do formulario. ||
+|| 4. O sistema redireciona o cliente para a dashboard do cliente, onde ele poder√° optar por adicionar o seu sistema fotovoltaico. |
 
-#### 5.2. Fluxo de ExceÁ„o
+#### 5.2. Fluxo de Exce√ß√£o
 
-| ExceÁ„o | Sistema |
+| Exce√ß√£o | Sistema |
 |:--------|:--------|
-| 1. Dados inv·lidos para a operaÁ„o | Se o cliente n„o informar os dados no formato correto ou n„o enviar todos os dados obrigatÛrios o sistema o impedir· de realizar o cadastro e notificar· na tela para que o usuario digite os dados necessarios. |
+| 1. Dados inv√°lidos para a opera√ß√£o | Se o cliente n√£o informar os dados no formato correto ou n√£o enviar todos os dados obrigat√≥rios o sistema o impedir√° de realizar o cadastro e notificar√° na tela para que o usuario digite os dados necessarios. |
 
 
-### 6. ProtÛtipos de Interface
+### 6. Prot√≥tipos de Interface
 `A ser desenvolvido pelo aluno.`

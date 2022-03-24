@@ -1,0 +1,25 @@
+﻿body{margin-top: 120px;}
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: center;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 3em;
+    font-size: 14px;
+    margin-bottom: 4em;
+}
+
+div.dataTables_wrapper div.dataTables_filter label{
+    display: block;
+}
+
+#btnAdd{
+    background-color: darkblue;
+}
+
+th{
+    text-align: center;
+}

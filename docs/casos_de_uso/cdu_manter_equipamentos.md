@@ -1,46 +1,48 @@
-# Projeto Agendamento de ServiÁos
+# Projeto Agendamento de Servi√ßos
 
-## EspecificaÁ„o do caso de uso - Manter ServiÁos
+## Especifica√ß√£o do caso de uso - Manter Equipamentos
 
-### HistÛrico da Revis„o 
+### Hist√≥rico da Revis√£o 
 
-|  Data  | Vers„o | DescriÁ„o | Autor |
+|  Data  | Vers√£o | Descri√ß√£o | Autor |
 |:-------|:-------|:----------|:------|
-| 29/11/2021 | **1.00** | Vers„o Inicial  | Rafael Campelo |
+| 29/11/2021 | **1.00** | Vers√£o Inicial  | Rafael Campelo |
+| 06/01/2021 | **1.10** | Formalismo  | Rafael Campelo |
 
 ### 1. Resumo 
 
-O funcion·rio seleciona os produtos, entre as trÍs opÁıes disponÌveis (Inversor, MÛdulo e Estrutura), e, em seguida, ir· inserir a potÍncia do produto, caso tenha selecionado a opÁ„o mÛdulo ou inversor. O funcion·rio dever· anexar o Datasheet do produto. AlÈm disso, poder· detalhar o produto, caso tenha que explicar alguma condiÁ„o externa.
+O funcion√°rio seleciona os produtos, entre as tr√™s op√ß√µes dispon√≠veis (Inversor, M√≥dulo e Estrutura), e, em seguida, ir√° inserir a pot√™ncia do produto, caso tenha selecionado a op√ß√£o m√≥dulo ou inversor. O funcion√°rio dever√° anexar o Datasheet do produto. Al√©m disso, poder√° detalhar o produto, caso tenha que explicar alguma condi√ß√£o externa.
 
 ### 2. Atores 
 
-Funcion·rio
+Funcion√°rio
 
-### 3. PrÈ-condiÁıes
+### 3. Pr√©-condi√ß√µes
 
-O produto escolhido deve obrigatoriamente ser um dos disponibilizado pela empresa.O funcion·rio deve estar logado em sua conta. 
+O produto escolhido deve obrigatoriamente ser um dos disponibilizado pela empresa.O funcion√°rio deve estar logado em sua conta. 
 
-### 4. PÛs-condiÁıes
+### 4. P√≥s-condi√ß√µes
 
 O produto deve ser disponibilizado ao cliente.
 
 ### 5. Fluxos de Evento
 
-#### 5.1. Fluxo B·sico
+#### 5.1. Fluxo B√°sico
 
 | Ator   | Sistema |
 |:-------|:--------|
-|| 1.O sistema apresenta uma tela onde È possÌvel fazer a inserÁ„o, ediÁ„o ou remoÁ„o de novos produtos. |
-| 2. O funcion·rio modifica ou acrescenta o produto caso ||
-|| 3. ApÛs realizar as tarefas necess·rias no equipamento, o sistema salvar· as mudanÁas e elas ser„o visiveis para os usuarios. |
+| 1. O funcion√°rio chega na tela inicial de Equipamentos ||
+|| 2.O sistema apresenta uma tela onde √© poss√≠vel fazer a inser√ß√£o, edi√ß√£o ou remo√ß√£o de novos produtos. |
+| 3. O funcion√°rio modifica ou acrescenta o produto caso ||
+|| 4. Ap√≥s realizar as tarefas necess√°rias no equipamento, o sistema salvar√° as mudan√ßas e elas ser√£o visiveis para os usuarios. |
 
-#### 5.2. Fluxo de ExceÁ„o
+#### 5.2. Fluxo de Exce√ß√£o
 
-| ExceÁ„o | Sistema |
+| Exce√ß√£o | Sistema |
 |:--------|:--------|
-| 1. Dados inv·lidos para a operaÁ„o | Caso os dados informados n„o possuam a quantidade ou caracteres corretos, È exibida uma mensagem de erro e o cadastro n„o È concluÌdo. |
-| 2. Equipamento j· cadastrado| Caso o funcion·rio queira adicionar um equipamento que j· foi incluÌdo deve ser apresentada uma mensagem  de retorno onde o informa e tambÈm d· a opÁ„o de modificar o equipamento que tentou cadastrar. |
+| 1. Dados inv√°lidos para a opera√ß√£o | Caso os dados informados n√£o possuam a quantidade ou caracteres corretos, √© exibida uma mensagem de erro e o cadastro n√£o √© conclu√≠do. |
+| 2. Equipamento j√° cadastrado| Caso o funcion√°rio queira adicionar um equipamento que j√° foi inclu√≠do deve ser apresentada uma mensagem  de retorno onde o informa e tamb√©m d√° a op√ß√£o de modificar o equipamento que tentou cadastrar. |
 
 
-### 6. ProtÛtipos de Interface
+### 6. Prot√≥tipos de Interface
 `A ser desenvolvido pelo aluno.`
