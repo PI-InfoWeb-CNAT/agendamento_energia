@@ -66,10 +66,10 @@
                     @Html.DisplayFor(modelItem => item.Confirmado)
                 </td>
                 <td class="text-center">
-                    @Html.ActionLink("Editar", "Edit", "Agendamentos", new { @class = "dropdown-item" })
+                    @Html.ActionLink("Editar", "Edit", "Agendamentos", new { id = item.AgendamentoID }, new { @class = "dropdown-item" })
                 </td>
                 <td class="text-center">
-                    @Html.ActionLink("Ver Detalhes", "Details", "Agendamentos", new { @class = "dropdown-item" })
+                    @Html.ActionLink("Ver Detalhes", "Details", "Agendamentos", new { id = item.AgendamentoID }, new { @class = "dropdown-item" })
                 </td>
                 <td class="text-center">
                     @Html.ActionLink("Cancelar", "Delete", "Agendamentos",new { id = item.AgendamentoID }, new { @class = "dropdown-item" })
