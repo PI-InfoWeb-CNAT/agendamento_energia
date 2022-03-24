@@ -12,7 +12,7 @@ namespace AgendamentoEnergia.Models
         public long ServiçoID { get; set; }
 
         [Required(ErrorMessage = "Por favor, insira uma descrição valida!")]
-        [DisplayName("Descrição")]
+        [DisplayName("Serviço")]
         public string Descrição { get; set; }
 
         [Required(ErrorMessage = "Por favor, insira um valor valido")]

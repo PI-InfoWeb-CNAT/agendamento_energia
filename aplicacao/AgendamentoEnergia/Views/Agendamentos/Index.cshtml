@@ -1,0 +1,114 @@
+﻿@model IEnumerable<AgendamentoEnergia.Models.Agendamento>
+
+@{
+    ViewBag.Title = "Agendamentos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <div class="row" style="margin:0;">
+        <div class="col-sm-6" style="padding: 0; margin-bottom: 20px; margin-top: 20px;">
+            <h2 style="margin:0; padding:0;">Agendamentos</h2>
+        </div>
+        <div class="col-sm-6" style="padding: 0; margin-bottom: 20px; margin-top: 20px;">
+            
+                <a href="@Url.Action("Create","Agendamentos")" class="btn btn-default" style="float: right;">
+                    Realizar agendamento
+                </a>
+            
+        </div>
+    </div>
+</div>
+<div class="container">
+    <table class="table" id="top">
+        <thead>
+            <tr>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Descricao)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Serviço.Descrição)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.dataAgendamento)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Executado)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.BemSucedido)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Confirmado)
+                </th>
+                <th></th><th></th><th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Serviço.Descrição)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.dataAgendamento)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Executado)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.BemSucedido)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Confirmado)
+                </td>
+                <td class="text-center">
+                    @Html.ActionLink("Editar", "Edit", "Agendamentos", new { @class = "dropdown-item" })
+                </td>
+                <td class="text-center">
+                    @Html.ActionLink("Ver Detalhes", "Details", "Agendamentos", new { @class = "dropdown-item" })
+                </td>
+                <td class="text-center">
+                    @Html.ActionLink("Cancelar", "Delete", "Agendamentos",new { id = item.AgendamentoID }, new { @class = "dropdown-item" })
+                </td>
+
+
+            </tr>
+            }
+        </tbody>
+
+    </table>
+</div>
+@section styles{
+    <link href="@Url.Content("~/content/DataTables/css/dataTables.bootstrap.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/content/custom.css")" rel="stylesheet" />
+
+}
+
+@section scripts{
+    <script src="@Url.Content("~/scripts/DataTables/jquery.dataTables.js")"></script>
+    <script src="@Url.Content("~/scripts/DataTables/dataTables.bootstrap.js")"></script>
+
+    <script type="text/javascript">
+                    $(document).ready(function () {
+                        bruh = $('#top').DataTable({
+                            "language": {
+                                "search": "_INPUT_",
+                                "searchPlaceholder": "Buscar",
+                                "paginate": { "previous": "Retornar", "next": "Avançar" },
+                                "zeroRecords": "Nada foi encontrado",
+                                "info": "",
+                                "infoEmpty": "Sem registros",
+                                "infoFiltered": "(filtrado de _MAX_ regitros totais)",
+                            },
+                            "paging": false,
+                            "ordering": false,
+                            "dom": 'frtil<p>'
+
+                        });
+                    });
+    </script>
+}
